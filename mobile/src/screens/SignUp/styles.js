@@ -13,7 +13,7 @@ export const Container = styled.View`
 export const ContainerLogin = styled.View`
   justify-content: center;
   border: 1px solid #3185FC;
-  margin: 0 30px 150px 30px; 
+  margin: 0 30px 0px 30px; 
   padding: 30px;`;
 
 export const Label = styled.Text`
@@ -22,8 +22,13 @@ export const Label = styled.Text`
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  margin-bottom:10px;
+  margin-bottom:5px;
 `;
+
+export const Title = styled.Text`
+font-size:16px;
+font-weight: 700;
+margin: 0 0 15px;`;
 
 export const TextInput = styled.TextInput`
 width: 100%;
@@ -31,7 +36,7 @@ height: 50px;
 background: #E5E5E5;
 border: 0.620237px solid rgba(0, 0, 0, 0.5);
 border-radius: 4px;
-margin-bottom:15px;
+margin-bottom:5px;
 padding:15px;
 font-size:20px;
 `;

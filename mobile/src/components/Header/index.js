@@ -22,7 +22,7 @@ const Header = (props) => {
    { props.title && <BalanceTitle>{props.title}</BalanceTitle>}
     </BalanceContainer>
 
-    <Ionicons name="power" size={30} color="#3185FC" />
+    <Ionicons name="power" size={30} color={ props.icon ? "#3185FC" : "#E5E5E5"} />
 </HeaderContainer>
  );
 }
