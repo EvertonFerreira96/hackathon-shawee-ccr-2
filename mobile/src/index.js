@@ -7,7 +7,7 @@ import Login from './screens/Login'
 import Menu from './screens/Menu';
 import NavigationScreens from './Navigation';
 import SignUp from './screens/SignUp';
-import Avatar from './screens/Avatar';
+import Perfil from './screens/Perfil';
 
 const Stack = createStackNavigator();
 
@@ -17,6 +17,7 @@ export default function App() {
     
     <NavigationContainer>
       <Stack.Navigator>
+      
         <Stack.Screen 
           name="Menu" 
           component={Menu}
@@ -34,9 +35,10 @@ export default function App() {
             component={SignUp}
             options={{ header: () => null }} />
             <Stack.Screen
-              name="Avatar"
-              component={Avatar}
+              name="Perfil"
+              component={Perfil}
               options={{ header: () => null }} />
+           
       </Stack.Navigator>
     </NavigationContainer>
   );

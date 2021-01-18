@@ -8,6 +8,7 @@ export const Wrapper = styled.SafeAreaView`
 export const Container = styled.View`
   justify-content: center;
   flex: 1;
+  margin:10px;
 `;
 
 
