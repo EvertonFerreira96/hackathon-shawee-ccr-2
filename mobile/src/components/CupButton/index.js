@@ -8,12 +8,12 @@ import imgCup from '../../assets/images/cup.png'
 
 export default function PayButton({ onPress, focused }) {
   return (
-    <TouchableWithoutFeedback onPress={onPress}>
+    <TouchableWithoutFeedback onPress={onPress} style={{borderColor: '#FFF', borderWidth: 5, borderStyle: 'solid'}}>
       <Button
         colors={
           focused
             ? ['#FFF', '#CCC']
-            : ['#392671', '#4C358F'] 
+            : ['#318CAA', '#3185FC'] 
         }
         start={[1, 0.2]}
       >

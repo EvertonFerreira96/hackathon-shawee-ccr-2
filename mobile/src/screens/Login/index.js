@@ -1,6 +1,8 @@
 import React, { useState} from 'react';
 import { Wrapper, Container, ContainerLogin, Label, TextInput, Button, ButtonTitle, HyperLink, HyperLinkTitle, CheckboxView, CheckboxContainer, CheckBoxTitle } from './styles';
 
+import { useNavigation } from '@react-navigation/native'
+
 import { Checkbox } from 'react-native-paper';
 
 import Header from '../../components/Header';
@@ -8,6 +10,7 @@ import Banner from '../../components/Banner';
 
 export default function Home() {
   const [rememberPassword, setRememberPassword] = useState(false);
+  const navigation = useNavigation();
   return (
     <> 
     <Wrapper>
@@ -18,7 +21,7 @@ export default function Home() {
           <TextInput />
           <Label>Senha</Label>
           <TextInput />
-          <Button><ButtonTitle>Entrar</ButtonTitle></Button>
+          <Button onPress={() => navigation.navigate('Navigation') }><ButtonTitle>Entrar</ButtonTitle></Button>
           <HyperLink><HyperLinkTitle>Esqueci minha senha</HyperLinkTitle></HyperLink>
           
 

@@ -44,8 +44,8 @@ export default function Navigation() {
           })}
           tabBarOptions={{
             style: {
-              backgroundColor: '#392671',
-              borderTopColor: '#392671',
+              backgroundColor: '#3185FC',
+              borderTopColor: '#3185FC',
             },
             activeTintColor: '#EBEBED',
             inactiveTintColor: '#FFB023',
