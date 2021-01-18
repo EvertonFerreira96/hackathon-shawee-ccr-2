@@ -32,7 +32,7 @@ export default function Menu() {
       <HyperLink onPress={()=> navigation.navigate('Login')}> 
         <HyperLinkTitle>LOGIN</HyperLinkTitle>
       </HyperLink>
-      <HyperLink >
+      <HyperLink onPress={()=> navigation.navigate('Radar')}>
         <HyperLinkTitle>RADAR</HyperLinkTitle>
       </HyperLink>
     </Container>
