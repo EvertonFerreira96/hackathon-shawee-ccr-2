@@ -7,7 +7,7 @@ import Login from './screens/Login'
 import Menu from './screens/Menu';
 import NavigationScreens from './Navigation';
 import SignUp from './screens/SignUp';
-import Avatar from './screens/Avatar';
+// import Avatar from './screens/Avatar';
 import Radar from './screens/Radar';
 
 import Perfil from './screens/Perfil';
